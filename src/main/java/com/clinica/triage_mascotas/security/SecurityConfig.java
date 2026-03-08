@@ -57,8 +57,7 @@ public class SecurityConfig {
 
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://vettriage-production.up.railway.app",
-                "https://vettriage.vercel.app"
+                "https://vettriage-production-9183.up.railway.app"
         ));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
